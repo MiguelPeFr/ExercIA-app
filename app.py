@@ -17,7 +17,7 @@ app.add_middleware(
 )
 
 # Configure Google Gen AI
-GOOGLE_API_KEY = "AIzaSyCEzhGAJxW1D6F0KtPuHrDs1-NnSfRKYkA"  # Replace with your actual API key
+GOOGLE_API_KEY = ""  # Replace with your actual API key
 genai.configure(api_key=GOOGLE_API_KEY)
 
 # Create the model
